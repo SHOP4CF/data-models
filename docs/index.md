@@ -1,6 +1,7 @@
 _This is work in progress!_
 
-The data models in [the SHOP4CF project](https://shop4cf.eu/) focus on information exchanged among SHOP4CF components.
+The data models in [the SHOP4CF project](https://shop4cf.eu/) aim at ensuring interoperability of the SHOP4CF software components,
+thus they model pieces of information exchanged among the components.
 
 ## Concept data models
 
