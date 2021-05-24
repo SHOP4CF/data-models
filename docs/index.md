@@ -1,5 +1,3 @@
-_This is work in progress!_
-
 The data models in [the SHOP4CF project](https://shop4cf.eu/) aim at ensuring interoperability of the SHOP4CF software components,
 thus they model pieces of information exchanged among the components.
 
@@ -16,7 +14,7 @@ to understand this technical representation better.
 ## FIWARE representation
 
 The common technical representation of most of the data models is 
-[FIWARE NGSI](https://fiware-datamodels.readthedocs.io/en/latest/howto/index.html).  
+[FIWARE NGSI-LD](https://fiware-datamodels.readthedocs.io/en/latest/ngsi-ld_howto/index.html).  
 
 ### Conventions
 
@@ -31,9 +29,6 @@ for instance: `urn:ngsi-ld:Device:company-xyz:sensor-abc-12345`.
 
 The examples given below provide an overview 
 of the FIWARE representation for the SHOP4CF concept data models.
-
-**Warning! These examples are in the NGSI v2 normalised format. 
-Please note the SHOP4CF project chose to adopt the NGSI-LD format, so the examples need to be adjusted.**
 
 Examples of the data models:
 
