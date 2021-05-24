@@ -49,4 +49,32 @@ so this unit is not explicit in the JSON representation.
 
 ### AGV
 
-...
+An example entity reporting the position of AGV `agv-713` within the shop floor:
+
+```
+{
+    "id": "urn:ngsi-ld:Device:company-xyz:agv-713",
+    "type": "Device",
+    "category": {
+        "value": ["sensor"]
+    },
+    "controlledProperty": {
+        "value": ["location"]
+    },
+    "relativePosition": {
+        "value": [5.5, 21],
+        "metadata": {
+            "timestamp": {
+                "value": "2020-12-01T11:23:19Z"
+            }
+        }
+    },
+    "deviceState": {
+        "value": "ok"
+    }
+}
+```
+
+Notes:
+- `relativePosition` is "location of this device in a coordinate system according to its local emplacement".
+We use it for coordinates within a shop floor.
