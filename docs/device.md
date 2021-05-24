@@ -4,6 +4,10 @@ _(in progress)_
 
 This model is based on [FIWARE Device](https://github.com/smart-data-models/dataModel.Device/blob/master/Device/doc/spec.md).
 
+> An apparatus (hardware + software + firmware) intended to accomplish a particular task (sensing the environment, actuating, etc.). A Device is a tangible object which contains some logic and is producer and/or consumer of data. A Device is always assumed to be capable of communicating electronically via a network.
+
+The required attributes are: `id`, `type`, `controlledProperty`.
+
 Two examples are given below: a sensor and an AGV.
 
 ### Sensor

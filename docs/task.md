@@ -2,6 +2,10 @@
 
 _(in progress)_
 
+Task is a manufacturing operation that is to be executed. 
+This data model is considered indivisible, although in the real world, it may be a complex multi-step operation.
+Task references Task Definition that specifies how to perform the work in detail.
+
 Example for a task is given below. 
 The task consists of the two steps:
 - AGV #5 to move 8 pallets from the storage to production line #6,

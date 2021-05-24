@@ -2,6 +2,10 @@
 
 _(in progress)_
 
+Material is a product (final or intermediate) or an ingredient of a manufacturing process. 
+Its attributes represent its current state. 
+The state may be physically observed, for instance location, but also process-specific, for instance a result of quality control.
+
 Example of a [PCB](https://en.wikipedia.org/wiki/Printed_circuit_board)
 under manufacturing with the outcome of quality control 
 is given below.
