@@ -92,3 +92,5 @@ An example entity reporting the position of AGV `agv-713` within the shop floor:
 Notes:
 - `relativePosition` is "location of this device in a coordinate system according to its local emplacement".
 We use it for coordinates within a shop floor.
+- Suggested possible values for `deviceState` are the following:
+`ok`, `idle`, `busy`, `paused`, `charging`, `outOfBattery`, `forMaintenance`, `error`
