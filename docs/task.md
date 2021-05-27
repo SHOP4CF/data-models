@@ -72,7 +72,10 @@ but yet without parameter values such as how, how many, what, where from, where 
     },
     "outputParameters": {
         "type": "Property",
-        "value": {},
+        "value": {
+            "materialsAlreadyTransported": 0,
+            "percentageCompleted": 0
+        },
         "observedAt": "2020-12-01T11:23:19Z"
     },
     "@context": [
@@ -80,3 +83,16 @@ but yet without parameter values such as how, how many, what, where from, where 
     ]
 }
 ```
+
+Required attributes are: `id`, `type`, `isDefinedBy`, `status`.
+
+Further notes on the attributes:
+- `isDefinedBy` references a Task Definition (which does not rather live in Context Broker)
+- `involves` references a set of involved resources
+- `happensAt` references a set of involved locations (which do not rather live in Context Broker)
+- `locationFunction` within `happensAt` is optional, an its values are use-case specific
+- `workParameters` are use-case specific and are set by the party that orders the task
+- `status` represents the current execution status with the following allowed values:
+`pending`, `assigned`, `inProgress`, `completed`, `paused`, `suspended`, `failed`
+- `outputParameters` are use-case specific and are usually set and updated by the party
+that executes the task
