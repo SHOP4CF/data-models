@@ -66,6 +66,10 @@ An example entity reporting the position of AGV `agv-713` within the shop floor:
         "type": "Property",
         "value": ["sensor"]
     },
+    "batteryLevel": {
+        "type": "Property",
+        "value": 1.0
+    },
     "controlledProperty": {
         "type": "Property",
         "value": ["location"]
