@@ -20,7 +20,7 @@ Example for maintenance alert for skid (car-body platform) no. 12345:
     },
     "subCategory": {
         "type": "Property",
-        "value": "skid"
+        "value": "incorrectPaintingProcessInKTL"
     },
     "validTo": {
         "type": "Property",
@@ -51,6 +51,10 @@ Example for maintenance alert for skid (car-body platform) no. 12345:
         "type": "Relationship",
         "object": "urn:ngsi-ld:Asset:skid-12345"
     },
+    "source": {
+        "type": "Property",
+        "value": "PMADAI"
+    },
     "validFrom": {
         "type": "Property",
         "value": {
@@ -62,8 +66,18 @@ Example for maintenance alert for skid (car-body platform) no. 12345:
         "type": "Property",
         "value": "high"
     },
+    "humanVerified": {
+        "type": "Property",
+        "value": false
+    },
     "@context": [
         "https://smartdatamodels.org/context.jsonld"
     ]
 }
 ```
+
+Notes:
+- Allowed values for `severity` are the following (from FIWARE Alert):
+`informational`, `low`, `medium`, `high`, `critical`
+- `humanVerified` is our extension of the FIWARE Alert,
+indicating whether the alert has been verified by a human (`true` or `false`)
