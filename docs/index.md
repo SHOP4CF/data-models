@@ -14,7 +14,9 @@ to understand this technical representation better.
 ## FIWARE representation
 
 The common technical representation of most of the data models is 
-[FIWARE NGSI-LD](https://fiware-datamodels.readthedocs.io/en/latest/ngsi-ld_howto/index.html).  
+FIWARE NGSI-LD
+[[1]](https://fiware-datamodels.readthedocs.io/en/latest/ngsi-ld_howto/index.html)
+[[2]](https://github.com/FIWARE/tutorials.Linked-Data).
 
 ### Conventions
 
