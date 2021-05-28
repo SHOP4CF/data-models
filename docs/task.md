@@ -79,7 +79,10 @@ but yet without parameter values such as how, how many, what, where from, where 
         "observedAt": "2020-12-01T11:23:19Z"
     },
     "@context": [
-        "https://smartdatamodels.org/context.jsonld"
+        "https://smartdatamodels.org/context.jsonld",
+        "involves": {
+            @type: "http://uri.etsi.org/ngsi-ld/Property",
+        }
     ]
 }
 ```
