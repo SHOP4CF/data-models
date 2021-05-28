@@ -7,7 +7,7 @@
     
     "happensAt": {
       "@id": "shop4cf:happensAt",
-      "@type": "ngsi-ld:Relationship"
+      "@type": "ngsi-ld:Property"
     },
     
     "workParameters": {
