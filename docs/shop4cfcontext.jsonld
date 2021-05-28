@@ -6,17 +6,17 @@
     },
     
     "happensAt": {
-      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld/happensAt",
+      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/happensAt",
       "@type": "ngsi-ld:Property"
     },
     
     "workParameters": {
-      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld/workParameters",
+      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/workParameters",
       "@type": "TO BE DEFINED"
     },
     
     "outputParameters": {
-      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld/outputParameters",
+      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/outputParameters",
       "@type": "TO BE DEFINED"
     }
   }
