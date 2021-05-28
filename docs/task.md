@@ -79,12 +79,7 @@ but yet without parameter values such as how, how many, what, where from, where 
         "observedAt": "2020-12-01T11:23:19Z"
     },
     "@context": [
-        "https://smartdatamodels.org/context.jsonld",
-        "involves": "ngsi-ld:Relationship",
-        "happensAt": "ngsi-ld:Relationship",
-        "workParameters": "TO BE DEFINED",
-        "status": "ngsi-ld:status",
-        "outputParameters": "TO BE DEFINED"
+        "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/context.jsonld"
     ]
 }
 ```
