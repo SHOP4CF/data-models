@@ -1,1 +1,23 @@
-{"@context": {"involves": "https://uri.etsi.org/ngsi-ld/Relationship", "happensAt": "https://uri.etsi.org/ngsi-ld/relationship", "workParameters": "TO BE DEFINED", "status": "https://uri.etsi.org/ngsi-ld/status", "outputParameters": "TO BE DEFINED"}}
+{
+  "@context": {
+    "involves": {
+      "@id": "shop4cf:involves",
+      "@type": "ngsi-ld:Relationship"
+    },
+    
+    "happensAt": {
+      "@id": "shop4cf:happensAt",
+      "@type": "ngsi-ld:Relationship"
+    },
+    
+    "workParameters": {
+      "@id": "shop4cf:workParameters",
+      "@type": "TO BE DEFINED"
+    },
+    
+    "outputParameters": {
+      "@id": "shop4cf:outputParameters",
+      "@type": "TO BE DEFINED"
+    }
+  }
+}
