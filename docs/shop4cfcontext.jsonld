@@ -1,8 +1,14 @@
 {
   "@context": {
+    
+    "isDefinedBy": {
+      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/isDefinedBy",
+      "@type": "ngsi-ld:Relationship"
+    },
+    
     "involves": {
       "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/involves",
-      "@type": "ngsi-ld:Relationship"
+      "@type": "ngsi-ld:Property"
     },
     
     "happensAt": {
