@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$schemaVersion": "0.0.1",
+    "$id": "https://smart-data-models.github.io/dataModel.SmartManufacturing/SHOP4CF/schema.json",
+    "title": " Smart Data Models - SHOP4CF",
+    "definitions": 
+    { 
+      "isDefinedBy": "Relationship. Model:'https://schema.org/URL'. References a Task Definition (which does not rather live in Context Broker)",
+      "involves": "Property. References a set of involved resources through an array of relationships", 
+      "happensAt": "Property. References a set of involved locations (which do not rather live in Context Broker) through an array of relationships",
+      "workParameters": "Property. Are use-case specific and are set by the party that orders the task",
+      "outputParameters":"Property. Are use-case specific and are usually set and updated by the party that executes the task"
+     }
+}
