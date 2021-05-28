@@ -80,9 +80,11 @@ but yet without parameter values such as how, how many, what, where from, where 
     },
     "@context": [
         "https://smartdatamodels.org/context.jsonld",
-        "involves": {
-            @type: "http://uri.etsi.org/ngsi-ld/Property",
-        }
+        "involves": "ngsi-ld:Relationship",
+        "happensAt": "ngsi-ld:Relationship",
+        "workParameters": "TO BE DEFINED",
+        "status": "ngsi-ld:status",
+        "outputParameters": "TO BE DEFINED"
     ]
 }
 ```
