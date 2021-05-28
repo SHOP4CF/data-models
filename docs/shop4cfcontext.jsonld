@@ -1,1 +1,1 @@
-"involves": "https://uri.etsi.org/ngsi-ld/Relationship", "happensAt": "https://uri.etsi.org/ngsi-ld/relationship", "workParameters": "TO BE DEFINED", "status": "https://uri.etsi.org/ngsi-ld/status", "outputParameters": "TO BE DEFINED"
+{"@context": {"involves": "https://uri.etsi.org/ngsi-ld/Relationship", "happensAt": "https://uri.etsi.org/ngsi-ld/relationship", "workParameters": "TO BE DEFINED", "status": "https://uri.etsi.org/ngsi-ld/status", "outputParameters": "TO BE DEFINED"}}
