@@ -1,7 +1,5 @@
 ## Material
 
-_(in progress)_
-
 Material is a product (final or intermediate) or an ingredient of a manufacturing process. 
 Its attributes represent its current state. 
 The state may be physically observed, for instance location, but also process-specific, for instance a result of quality control.
@@ -18,15 +16,14 @@ a specific use case.
     "id": "urn:ngsi-ld:Material:company-xyz:pcb-ncw498w",
     "type": "Material",
     "status": {
-        "type": "StructuredValue",
+        "type": "Property",
         "value": {
             "qualityControlOutcome": "defective"
         },
-        "metadata": {
-            "timestamp": {
-                "value": "2020-12-01T11:23:19Z"
-            }
-        }
-    }
+        "observedAt": "2020-12-01T11:23:19Z"
+    },
+    "@context": [
+        "https://smartdatamodels.org/context.jsonld"
+    ]
 }
 ```

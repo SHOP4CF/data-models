@@ -1,7 +1,5 @@
 ## Alert
 
-_(in progress)_
-
 This model is based on [FIWARE Alert](https://github.com/smart-data-models/dataModel.Alert/blob/master/Alert/doc/spec.md).
 
 > This entity models an alert and could be used to send alerts related to (…) [specific categories of alerts]. The purpose of the model is to support the generation of notifications for a user or trigger other actions, based on such alerts.
@@ -17,37 +15,69 @@ Example for maintenance alert for skid (car-body platform) no. 12345:
     "id": "urn:ngsi-ld:Alert:company-xyz:pred-maint-3x29md89",
     "type": "Alert",
     "category": {
+        "type": "Property",
         "value": "predictiveMaintenance"
     },
     "subCategory": {
-        "value": "skid"
+        "type": "Property",
+        "value": "incorrectPaintingProcessInKTL"
     },
     "validTo": {
-        "value": "2017-01-02T10:25:55.00Z"
+        "type": "Property",
+        "value": {
+            "@type": "DateTime",
+            "@value": "2017-01-02T10:25:55.00Z"
+        }
     },
     "description": {
+        "type": "Property",
         "value": "Skid no. 12345 needs maintenance"
     },
     "location": {
-        "type": "geo:json",
+        "type": "GeoProperty",
         "value": {
             "type": "Point",
             "coordinates": [-3.712247222222222, 40.423852777777775]
         }
     },
     "dateIssued": {
-        "type": "DateTime",
-        "value": "2017-01-02T09:25:55.00Z"
+        "type": "Property",
+        "value": {
+            "@type": "DateTime",
+            "@value": "2017-01-02T09:25:55.00Z"
+        }
     },
     "alertSource": {
-        "value": "urn:ngsi-ld:Asset:skid-12345"
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Asset:skid-12345"
+    },
+    "source": {
+        "type": "Property",
+        "value": "PMADAI"
     },
     "validFrom": {
-        "type": "DateTime",
-        "value": "2017-01-02T09:25:55.00Z"
+        "type": "Property",
+        "value": {
+            "@type": "DateTime",
+            "@value": "2017-01-02T09:25:55.00Z"
+        }
     },
     "severity": {
+        "type": "Property",
         "value": "high"
-    }
+    },
+    "humanVerified": {
+        "type": "Property",
+        "value": false
+    },
+    "@context": [
+        "https://smartdatamodels.org/context.jsonld"
+    ]
 }
 ```
+
+Notes:
+- Allowed values for `severity` are the following (from FIWARE Alert):
+`informational`, `low`, `medium`, `high`, `critical`
+- `humanVerified` is our extension of the FIWARE Alert,
+indicating whether the alert has been verified by a human (`true` or `false`)
