@@ -1,22 +1,22 @@
 {
   "@context": {
     "involves": {
-      "@id": "shop4cf:involves",
+      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld/involves",
       "@type": "ngsi-ld:Relationship"
     },
     
     "happensAt": {
-      "@id": "shop4cf:happensAt",
+      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld/happensAt",
       "@type": "ngsi-ld:Property"
     },
     
     "workParameters": {
-      "@id": "shop4cf:workParameters",
+      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld/workParameters",
       "@type": "TO BE DEFINED"
     },
     
     "outputParameters": {
-      "@id": "shop4cf:outputParameters",
+      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld/outputParameters",
       "@type": "TO BE DEFINED"
     }
   }
