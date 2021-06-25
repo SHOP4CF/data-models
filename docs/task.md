@@ -13,7 +13,7 @@ It is assumed that there is a Task Definition already defined
 that describes such a hybrid transportation work, 
 but yet without parameter values such as how, how many, what, where from, where to.
 
-```
+```json
 {
     "id": "urn:ngsi-ld:Task:company-xyz:im834wyoen78w37",
     "type": "Task",
