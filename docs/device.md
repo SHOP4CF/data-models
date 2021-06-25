@@ -14,7 +14,7 @@ An example sensor with serial number "9845A",
 measuring electrical current on a busbar (kind of an electical conductor) no. 789, 
 with the current value of 11.54 A:
 
-```
+```json
 {
     "id": "urn:ngsi-ld:Device:company-xyz:sensor-12345",
     "type": "Device",
@@ -58,7 +58,7 @@ so this unit is not explicit in the JSON representation.
 
 An example entity reporting the position of AGV `agv-713` within the shop floor:
 
-```
+```json
 {
     "id": "urn:ngsi-ld:Device:company-xyz:agv-713",
     "type": "Device",

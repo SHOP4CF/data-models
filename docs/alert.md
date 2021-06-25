@@ -10,7 +10,7 @@ The required attributes are: `id`, `type`, `category`, `dateIssued`, `alertSourc
 
 Example for maintenance alert for skid (car-body platform) no. 12345:
 
-```
+```json
 {
     "id": "urn:ngsi-ld:Alert:company-xyz:pred-maint-3x29md89",
     "type": "Alert",

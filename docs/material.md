@@ -11,7 +11,7 @@ is given below.
 The concrete structure of the `status` attribute depends on 
 a specific use case.  
 
-```
+```json
 {
     "id": "urn:ngsi-ld:Material:company-xyz:pcb-ncw498w",
     "type": "Material",
