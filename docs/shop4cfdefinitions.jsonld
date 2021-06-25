@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/schema#",
     "$schemaVersion": "0.0.1",
     "$id": "https://smart-data-models.github.io/dataModel.SmartManufacturing/SHOP4CF/schema.json",
-    "title": " Smart Data Models - SHOP4CF",
+    "title": "Smart Data Models - SHOP4CF",
     "definitions": 
     { 
       "isDefinedBy": "Relationship. Model:'https://schema.org/URL'. References a Task Definition (which does not rather live in Context Broker)",
