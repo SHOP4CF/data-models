@@ -2,27 +2,27 @@
   "@context": {
     
     "isDefinedBy": {
-      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/isDefinedBy",
+      "@id": "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/isDefinedBy",
       "@type": "ngsi-ld:Relationship"
     },
     
     "involves": {
-      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/involves",
+      "@id": "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/involves",
       "@type": "ngsi-ld:Property"
     },
     
     "happensAt": {
-      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/happensAt",
+      "@id": "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/happensAt",
       "@type": "ngsi-ld:Property"
     },
     
     "workParameters": {
-      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/workParameters",
+      "@id": "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/workParameters",
       "@type": "TO BE DEFINED"
     },
     
     "outputParameters": {
-      "@id": "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/outputParameters",
+      "@id": "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/outputParameters",
       "@type": "TO BE DEFINED"
     }
   }

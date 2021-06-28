@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/schema#",
     "$schemaVersion": "0.0.1",
-    "$id": "https://smart-data-models.github.io/dataModel.SmartManufacturing/SHOP4CF/schema.json",
+    "$id": "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfdefinitions.jsonld",
     "title": "Smart Data Models - SHOP4CF",
     "definitions": 
     { 

@@ -80,7 +80,7 @@ but yet without parameter values such as how, how many, what, where from, where 
     },
     "@context": [
         "https://smartdatamodels.org/context.jsonld",
-        "https://raw.githubusercontent.com/matteopantano/data-models/master/docs/shop4cfcontext.jsonld"
+        "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfcontext.jsonld"
     ]
 }
 ```
