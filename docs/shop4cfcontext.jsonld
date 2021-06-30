@@ -18,12 +18,12 @@
     
     "workParameters": {
       "@id": "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/workParameters",
-      "@type": "TO BE DEFINED"
+      "@type": "ngsi-ld:Property"
     },
     
     "outputParameters": {
       "@id": "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfdefinitions.jsonld#definitions/outputParameters",
-      "@type": "TO BE DEFINED"
+      "@type": "ngsi-ld:Property"
     }
   }
 }
