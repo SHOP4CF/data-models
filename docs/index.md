@@ -37,5 +37,7 @@ Examples of the data models:
 - Resources:
     - [Device](device.md)
     - [Material](material.md)
+    - [Asset](asset.md)
+    - [Person](person.md)
 - [Task](task.md)
 - [Alert](alert.md)
