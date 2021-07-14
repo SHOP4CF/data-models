@@ -22,7 +22,8 @@ Example of a hammer is given below.
         "observedAt": "2020-12-01T11:23:19Z"
     },
     "@context": [
-        "https://smartdatamodels.org/context.jsonld"
+        "https://smartdatamodels.org/context.jsonld",
+        "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfcontext.jsonld"
     ]
 }
 ```
