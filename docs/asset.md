@@ -16,7 +16,7 @@ Example of a hammer is given below.
         "type": "Property",
         "value": "Red hammer no. 58"
     },
-    "status": {
+    "state": {
         "type": "Property",
         "value": "available",
         "observedAt": "2020-12-01T11:23:19Z"
@@ -27,5 +27,5 @@ Example of a hammer is given below.
 }
 ```
 
-The concrete structure of the `status` attribute depends on 
-a specific use case.  
+Attribute `state` is the state of the asset from an operational point of view.
+Its concrete structure/value depends on a specific use case.

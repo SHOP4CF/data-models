@@ -25,5 +25,5 @@ Person is a human (human worker) who can perform a step in manufacturing.
 }
 ```
 
-The concrete structure of the `status` attribute depends on 
-a specific use case.  
+Attribute `state` is the state of the person from an operational point of view.
+Its concrete structure/value depends on a specific use case.
