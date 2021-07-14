@@ -99,7 +99,6 @@ Further notes on the attributes:
   - `inProgress` - actual execution is in progress
   - `completed` - execution has completed
   - `paused` - execution has been in progress but is now temporarily paused
-  - `suspended` - ?
   - `failed` - execution has permanently failed 
 - `outputParameters` are use-case specific and are usually set and updated by the party
 that executes the task
