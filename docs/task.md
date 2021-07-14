@@ -94,6 +94,11 @@ Further notes on the attributes:
 - `locationFunction` within `happensAt` is optional, an its values are use-case specific
 - `workParameters` are use-case specific and are set by the party that orders the task
 - `status` represents the current execution status with the following allowed values:
-`pending`, `assigned`, `inProgress`, `completed`, `paused`, `suspended`, `failed`
+  - `pending` - execution of this Task is requested, but the component (the agent) responsible for its execution is not yet aware
+  - `assigned` - execution of this Task is requested, and the component (the agent) responsible for its execution has accepted it
+  - `inProgress` - actual execution is in progress
+  - `completed` - execution has completed
+  - `paused` - execution has been in progress but is now temporarily paused
+  - `failed` - execution has permanently failed 
 - `outputParameters` are use-case specific and are usually set and updated by the party
 that executes the task
