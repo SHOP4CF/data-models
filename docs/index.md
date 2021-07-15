@@ -38,4 +38,5 @@ Examples of the data models:
     - [Device](device.md)
     - [Material](material.md)
 - [Task](task.md)
+- [Process](process.md)
 - [Alert](alert.md)
