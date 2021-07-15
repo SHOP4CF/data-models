@@ -8,14 +8,11 @@ Example of a [PCB](https://en.wikipedia.org/wiki/Printed_circuit_board)
 under manufacturing with the outcome of quality control 
 is given below.
 
-The concrete structure of the `status` attribute depends on 
-a specific use case.  
-
 ```json
 {
     "id": "urn:ngsi-ld:Material:company-xyz:pcb-ncw498w",
     "type": "Material",
-    "status": {
+    "state": {
         "type": "Property",
         "value": {
             "qualityControlOutcome": "defective"
@@ -23,7 +20,11 @@ a specific use case.
         "observedAt": "2020-12-01T11:23:19Z"
     },
     "@context": [
-        "https://smartdatamodels.org/context.jsonld"
+        "https://smartdatamodels.org/context.jsonld",
+        "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfcontext.jsonld"
     ]
 }
 ```
+
+Attribute `state` is the state of the material from an operational point of view.
+Its concrete structure/value depends on a specific use case.
