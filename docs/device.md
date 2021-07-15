@@ -43,8 +43,18 @@ with the current value of 11.54 A:
         "type": "Property",
         "value": "ok"
     },
+    "isSpecifiedBy": {
+        "type": "Property",
+        "value": [
+            {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:ResourceSpecification:company-xyz:sensor"
+            }
+        ]
+    },
     "@context": [
-        "https://smartdatamodels.org/context.jsonld"
+        "https://smartdatamodels.org/context.jsonld",
+        "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfcontext.jsonld"
     ]
 }
 ```
@@ -53,6 +63,8 @@ Notes:
 - `controlledProperty=electricCurrent` is our extensions of the origin data model.  
 - Ampere is the unit for electric current in the metric system,
 so this unit is not explicit in the JSON representation.
+- `isSpecifiedBy` references a set of Resource Specifications that the Device fulfills
+(and that do not rather live in Context Broker)
 
 ### AGV
 
@@ -83,8 +95,22 @@ An example entity reporting the position of AGV `agv-713` within the shop floor:
         "type": "Property",
         "value": "ok"
     },
+    "isSpecifiedBy": {
+        "type": "Property",
+        "value": [
+            {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:ResourceSpecification:company-xyz:robot"
+            },
+            {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:ResourceSpecification:company-xyz:agv"
+            }
+        ]
+    },
     "@context": [
-        "https://smartdatamodels.org/context.jsonld"
+        "https://smartdatamodels.org/context.jsonld",
+        "https://raw.githubusercontent.com/shop4cf/data-models/master/docs/shop4cfcontext.jsonld"
     ]
 }
 ```
