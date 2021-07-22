@@ -49,7 +49,7 @@ Example for maintenance alert for skid (car-body platform) no. 12345:
     },
     "alertSource": {
         "type": "Relationship",
-        "object": "urn:ngsi-ld:Asset:skid-12345"
+        "object": "urn:ngsi-ld:Asset:company-xyz:skid-12345"
     },
     "source": {
         "type": "Property",
