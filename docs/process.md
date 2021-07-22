@@ -71,6 +71,14 @@ and adding references to the Tasks:
         "value": "assigned",
         "observedAt": "2020-12-01T11:30:21Z"
     },
+    "outputParameters": {
+        "type": "Property",
+        "value": {
+            "riskApproved": true,
+            "riskReport": "https://example.com/report-123"
+        },
+        "observedAt": "2020-12-01T11:23:19Z"
+    },
     "isComposedOf": {
         "type": "Property",
         "value": [
@@ -97,4 +105,5 @@ and adding references to the Tasks:
 ```
 
 Further notes:
+- `outputParameters` are use-case specific, as in [Task](task.md)
 - `isComposedOf` references a set of constituent Tasks
