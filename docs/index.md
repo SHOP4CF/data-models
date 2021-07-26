@@ -40,4 +40,5 @@ Examples of the data models:
     - [Asset](asset.md)
     - [Person](person.md)
 - [Task](task.md)
+- [Process](process.md)
 - [Alert](alert.md)
