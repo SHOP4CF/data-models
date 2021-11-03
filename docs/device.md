@@ -60,7 +60,8 @@ with the current value of 11.54 A:
 ```
 
 Notes:
-- `controlledProperty=electricCurrent` is our extensions of the origin data model.  
+- `controlledProperty=electricCurrent` is our extension of the origin data model (with ampere as the default unit).
+Other example values used in SHOP4CF are: `electricCharge` (unit is coulomb).
 - Ampere is the unit for electric current in the metric system,
 so this unit is not explicit in the JSON representation.
 - `isSpecifiedBy` references a set of Resource Specifications that the Device fulfills
