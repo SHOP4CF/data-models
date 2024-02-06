@@ -6,7 +6,7 @@ thus they model pieces of information exchanged among the components.
 The concept data models 
 (i.e. the definitions of data entities, relationships, and attributes)
 as well as further explanations of the data architecture
-are described in Section 8 of the [SHOP4CF architecture](download/architecture-v3.pdf). 
+are described in Section 8 of the [SHOP4CF architecture](download/architecture-v4.pdf). 
 
 Reviewing the data architecture may be necessary 
 to understand this technical representation better.
